@@ -1,0 +1,49 @@
+body {
+	background-color: #ccddcc;
+	color: #578090;
+	font-family: sans-serif, serif;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+h1, h2, h3{
+	font-family: "Helvetica", sans-serif;
+
+}
+
+a{
+	color: #ccddcc;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: pink;
+	text-decoration: none;
+}
+
+.container{
+	width: 50%;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: 3px 3px 10px 2px grey;
+	padding: 3px;
+	margin: 10px 0 0 0;
+}
+
+#profile{
+	border-radius: 50%;
+	width: 30%;
+	height: auto;
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 100%;
+	}
+}
